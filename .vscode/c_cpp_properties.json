@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/include/**",
+                "${workspaceFolder}/include/arch/**",
+                "${workspaceFolder}/arch/arm/include/chip/**",
+                "${workspaceFolder}/arch/arm/include/board/**",
+                "${workspaceFolder}/arch/arm/src/chip/**",
+                "${workspaceFolder}/arch/arm/src/board/**",
+                "${workspaceFolder}/drivers/platform"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
