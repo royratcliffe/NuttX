@@ -7,15 +7,12 @@
 	"features": {
 		"ghcr.io/rocker-org/devcontainer-features/apt-packages:1": {
 			"upgradePackages": true,
-			"packages": "kconfig-frontends-nox,ccache"
+			"packages": "kconfig-frontends-nox"
 		}
 	},
 
-	"containerEnv": {
-		"USE_CCACHE": "1"
-	},
 	"remoteEnv": {
-		"PATH": "/opt/gcc-arm-none-eabi-9-2020-q2-update/bin:${containerEnv:PATH}"
+		"PATH": "${containerEnv:PATH}:/opt/gcc-arm-none-eabi-9-2020-q2-update/bin"
 	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
