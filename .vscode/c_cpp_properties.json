@@ -17,9 +17,9 @@
                 "__KERNEL__",
                 "CONFIG_STM32H7_STM32H7X7XX"
             ],
-            "compilerPath": "/usr/bin/gcc",
-            "cppStandard": "gnu++17",
-            "intelliSenseMode": "linux-gcc-x64"
+            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "cppStandard": "gnu++11",
+            "intelliSenseMode": "linux-gcc-arm"
         }
     ],
     "version": 4
