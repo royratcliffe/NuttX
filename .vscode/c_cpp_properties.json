@@ -12,7 +12,11 @@
                 "${workspaceFolder}/arch/arm/src/board/**",
                 "${workspaceFolder}/drivers/platform"
             ],
-            "defines": [],
+            "defines": [
+                "__NuttX__",
+                "__KERNEL__",
+                "CONFIG_STM32H7_STM32H7X7XX"
+            ],
             "compilerPath": "/usr/bin/gcc",
             "cppStandard": "gnu++17",
             "intelliSenseMode": "linux-gcc-x64"
