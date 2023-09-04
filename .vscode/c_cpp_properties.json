@@ -17,7 +17,7 @@
                 "__KERNEL__",
                 "CONFIG_STM32H7_STM32H7X7XX"
             ],
-            "compilerPath": "/usr/bin/arm-none-eabi-gcc",
+            "compilerPath": "//opt/gcc-arm-none-eabi-9-2020-q2-update/bin/arm-none-eabi-gcc",
             "cppStandard": "gnu++11",
             "intelliSenseMode": "linux-gcc-arm"
         }
