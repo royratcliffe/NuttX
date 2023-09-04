@@ -168,4 +168,6 @@ ifeq ($(CONFIG_STM32H7_WWDG),y)
 CHIP_CSRCS += stm32_wwdg.c
 endif
 
+ifeq ($(CONFIG_AMP),y)
 CHIP_CSRCS += stm32_cpuid.c
+endif
