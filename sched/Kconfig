@@ -282,6 +282,20 @@ config SMP_NCPUS
 
 endif # SMP
 
+config AMP
+	bool "Asymmetric Multi-Processing (AMP)"
+	default n
+	depends on !SMP
+
+if AMP
+
+config AMP_NCPUS
+	int "Number of CPUs"
+	default 2
+	range 1 2
+
+endif # AMP
+
 choice
 	prompt "Initialization Task"
 	default INIT_ENTRY if !BUILD_KERNEL
